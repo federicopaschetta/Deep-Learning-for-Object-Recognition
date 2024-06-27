@@ -1,0 +1,27 @@
+6]
+0 s
+import numpy as np
+
+# Compute the accuracy
+correct_samples_class = np.diag(cm).astype(float)
+total_samples_class = np.sum(cm, axis=1).astype(float)
+total_predicts_class = np.sum(cm, axis=0).astype(float)
+print('Mean Accuracy: %.3f%%' % (np.sum(correct_samples_class) / np.sum(total_samples_class) * 100))
+acc = correct_samples_class / np.maximum(total_samples_class, np.finfo(np.float64).eps)
+print('Mean Recall: %.3f%%' % (acc.mean() * 100))
+acc = correct_samples_class / np.maximum(total_predicts_c
+Mean Accuracy: 75.218%
+Mean Recall: 64.635%
+Mean Precision: 65.501%
+> Cargo plane: Recall: 86.747% Precision: 97.297% Specificity: 99.922% Dice: 91.720%
+> Helicopter: Recall: 0.000% Precision: 0.000% Specificity: 100.000% Dice: 0.000%
+> Small car: Recall: 91.170% Precision: 69.811% Specificity: 91.061% Dice: 79.074%
+> Bus: Recall: 51.240% Precision: 62.944% Specificity: 96.949% Dice: 56.492%
+> Truck: Recall: 37.049% Precision: 50.446% Specificity: 95.236% Dice: 42.722%
+> Motorboat: Recall: 85.533% Precision: 85.316% Specificity: 97.412% Dice: 85.425%
+> Fishing vessel: Recall: 48.387% Precision: 57.692% Specificity: 98.702% Dice: 52.632%
+> Dump truck: Recall: 56.557% Precision: 63.889% Specificity: 98.448% Dice: 60.000%
+> Excavator: Recall: 85.965% Precision: 80.328% Specificity: 99.535% Dice: 83.051%
+> Building: Recall: 88.561% Precision: 92.843% Specificity: 98.232% Dice: 90.652%
+> Storage tank: Recall: 86.831% Precision: 93.778% Specificity: 99.415% Dice: 90.171%
+> Shipping container: Recall: 57.576% Precision: 31.667% Specificity: 96.808% Dice: 40.860%

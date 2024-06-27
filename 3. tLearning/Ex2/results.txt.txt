@@ -1,0 +1,15 @@
+Mean Accuracy: 72.182%
+Mean Recall: 61.109%
+Mean Precision: 63.001%
+> Cargo plane: Recall: 84.337% Precision: 95.890% Specificity: 99.882% Dice: 89.744%
+> Helicopter: Recall: 0.000% Precision: 0.000% Specificity: 99.924% Dice: 0.000%
+> Small car: Recall: 89.528% Precision: 69.760% Specificity: 91.201% Dice: 78.417%
+> Bus: Recall: 52.479% Precision: 58.525% Specificity: 96.239% Dice: 55.338%
+> Truck: Recall: 40.000% Precision: 42.807% Specificity: 93.004% Dice: 41.356%
+> Motorboat: Recall: 71.320% Precision: 82.164% Specificity: 97.278% Dice: 76.359%
+> Fishing vessel: Recall: 35.484% Precision: 47.143% Specificity: 98.544% Dice: 40.491%
+> Dump truck: Recall: 47.541% Precision: 61.053% Specificity: 98.528% Dice: 53.456%
+> Excavator: Recall: 84.211% Precision: 82.759% Specificity: 99.612% Dice: 83.478%
+> Building: Recall: 88.007% Precision: 90.341% Specificity: 97.563% Dice: 89.159%
+> Storage tank: Recall: 88.889% Precision: 96.000% Specificity: 99.624% Dice: 92.308%
+> Shipping container: Recall: 51.515% Precision: 29.565% Specificity: 96.847% Dice: 37.569%
