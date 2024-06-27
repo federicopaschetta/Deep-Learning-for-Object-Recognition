@@ -49,8 +49,8 @@ DeepLearningProject/
 - Federico Paschetta
 - Cecilia Peccolo
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+This project is licensed under the MIT License.
 
-Acknowledgments
+## Acknowledgments
 Special thanks to Universidad Politécnica de Madrid for guidance and resources throughout the project.
